@@ -17,4 +17,4 @@ It was trained from scratch on the training data using [PyTorch](http://pytorch.
 
 # Metrics
 
-The model achieved xx% accuracy on the validation set (random 20% subset of the training dataset).
+The model achieved 93% accuracy on the validation set (random 20% subset of the training dataset).
