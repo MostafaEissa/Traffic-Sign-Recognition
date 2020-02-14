@@ -1,6 +1,6 @@
 # Overview
 
-A convolutional neural network for German traffic sign image classification.  
+A convolutional neural network for traffic sign image classification.  
 
 # Dataset 
 
@@ -11,7 +11,7 @@ Note: the dataset was not uploaded in this repository.
 # Model
 A convolution neural network having the following architecture:
 
-`CONV2D -> MAXPOOL -> DROPOUT -> CONV2D -> MAXPOOL -> DROPOUT --> FLATTEN -> FULLYCONNECTED -> DROPOUT -> FULLYCONNECTED`
+`CONV2D -> CONV2D -> MAXPOOL -> DROPOUT -> CONV2D -> CONV2D -> MAXPOOL -> DROPOUT --> FLATTEN -> FULLYCONNECTED -> DROPOUT -> FULLYCONNECTED`
 
 It was trained from scratch on the training data using [PyTorch](http://pytorch.org/).
 
